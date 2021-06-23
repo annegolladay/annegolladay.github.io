@@ -1,0 +1,181 @@
+/* Meyer's Reset */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+/* General Styles */
+
+* {
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+header {
+    width: 100%;
+    padding: 1% 1%;
+    display: flex;
+}
+
+body {
+    line-height: 1.5;
+    font-size: 1.8rem;
+    color: #4f4f4f;
+    background-color: #fffafa;
+    padding: 5%;
+    /* font-family: ; */
+}
+
+section, footer {
+    padding: 4% 0;
+}
+
+h1 {
+    font-size: 4rem;
+    /* font-family: ; */
+}
+
+h2 {
+    margin: 3%;
+    font-size: 3.5rem;
+    text-decoration: underline;
+}
+
+h3 {
+    margin: 3%;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+/* Header Section */
+
+.nav {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 6%;
+    align-items: center;
+    color: black;
+    text-decoration: underline;
+    /* margin: 2%; */
+}
+
+a {
+    text-decoration: none;
+    letter-spacing: 1.5px;
+    color: blue;
+    padding: 0 2%;
+    text-align: center;
+}
+
+.profile-img {
+    width: 20vw;
+    height: 35vh;
+    padding: 3%;
+    /* border-radius: 40%; */
+}
+
+.about, .skills, .projects, .contact {
+    /* border: 1px solid black; */
+}
+
+.about p {
+    margin: 2% 2%;
+}
+
+.about-div, .skills-div, .contact-div{
+    /* padding: 2% 2%; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.book-div {
+    display: flex;
+    flex-direction: column;
+}
+
+i {
+    font-size: 8em;
+}
+
+.book-container, .backend-container p {
+    align-items: center;
+}
+
+
+
+/* .favorites-container .travel-container h2, h3 {
+    padding: 2% 2%;
+}
+
+.favorites-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.fave-container {
+    width: 25%;
+    padding: 1% 1%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.favorites-wrapper .fave-container img {
+    width: 12em;
+    height: 30vh;
+    padding: 2%;
+    margin: 2%;
+} */
+
+
+
+
