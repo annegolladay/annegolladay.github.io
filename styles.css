@@ -144,11 +144,18 @@ i {
     font-size: 8em;
 }
 
+/* #book-gh {
+    padding: 3%;
+    font-size: 1.5em;
+} */
+
 .book-container, .backend-container p {
     align-items: center;
 }
 
-
+.contact-div {
+    text-decoration: underline;
+}
 
 /* .favorites-container .travel-container h2, h3 {
     padding: 2% 2%;
